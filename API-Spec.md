@@ -53,7 +53,7 @@ curl -H "X-API-Key: demiand_api_app_key" "http://neuro.demiand.ru:8001/messages?
   {
     "content_type": "voice",
     "content": {
-      "voice": "http://server-or-cdn/voice_message.ogg"
+      "voice": "http://server-or-cdn/voice_message.wav"
     },
     "role": "user",
     "id": "server_generated_id",
