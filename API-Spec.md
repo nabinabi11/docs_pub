@@ -51,6 +51,34 @@ curl -H "X-API-Key: demiand_api_app_key" "http://neuro.demiand.ru:8001/messages?
     "extra_info": null
   },
   {
+    "content_type": "voice",
+    "content": {
+      "voice": "http://server-or-cdn/voice_message.ogg"
+    },
+    "role": "user",
+    "id": "server_generated_id",
+    "client_id": "client_generated_id",
+    "created_at": 1744110979,
+    "extra_info": null
+  },
+  {
+    "content_type": "images",
+    "content": {
+      "images": [
+        "http://server-or-cdn/image_1.jpg",
+        "http://server-or-cdn/image_2.jpg"
+      ],
+      "text": "Описание или подпись"
+    },
+    "role": "user",
+    "id": "server_generated_id",
+    "client_id": client_generated_id,
+    "created_at": 1744111979,
+    "extra_info": {
+      "recipes": [123, 456, 789]
+    }
+  }
+  {
     "content_type": "text",
     "content": "Пример ответа ассистента",
     "role": "assistant",
@@ -60,6 +88,7 @@ curl -H "X-API-Key: demiand_api_app_key" "http://neuro.demiand.ru:8001/messages?
     "extra_info": null
   }
 ]
+
 ```
 
 ---
