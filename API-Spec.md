@@ -72,7 +72,7 @@ curl -H "X-API-Key: demiand_api_app_key" "http://neuro.demiand.ru:8001/messages?
     },
     "role": "user",
     "id": "server_generated_id",
-    "client_id": client_generated_id,
+    "client_id": "client_generated_id",
     "created_at": 1744111979,
     "extra_info": null
   },
